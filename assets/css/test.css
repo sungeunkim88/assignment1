@@ -1,0 +1,17 @@
+.header-section {
+    display: flex;
+    max-width: 960px;
+}
+
+.header-section-1 div {
+    width: 0%;
+}
+
+.header-section-3{
+    float: right;
+}
+/* @media (max-width: 768px) {
+    .header-section > div {
+        width: 100%;
+    }
+} */
