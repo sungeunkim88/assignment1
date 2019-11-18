@@ -1,87 +1,54 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            max-width: 960px;
-            margin: auto;
-            background-image: url(uci/week1assignment/assets/images/so-white.png);
-        }
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/test.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
 
-        * {
-            box-sizing: border-box;
-        }
 
-        input[type=text],
-        select,
-        textarea {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            margin-top: 6px;
-            margin-bottom: 16px;
-            resize: vertical;
-        }
-
-        input[type=submit] {
-            background-color: #4aaaa5;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        input[type=submit]:hover {
-            background-color: #4aaaa5;
-        }
-
-        .container {
-            border-radius: 5px;
-            background-color: #f2f2f2;
-            padding: 20px;
-        }
-    </style>
+</style>
 </head>
-
 <body>
     <header>
-        <h1 class="logo">Sungeun Kim</h1>
-        <div class="navbar3">
-            <a href="index.html">Contact</a>
+        <div class="top">
+            <h2 class="logo">Sungeun Kim</h2>
+            <div class="navbar3">
+                <a href="#">Contact</a>
+            </div>
+            <div class="navbar2">
+                <a href="portfolio.html">Portfolio</a>
+            </div>
+            <div class="navbar1">
+                <a href="index.html">About</a>
+            </div>
         </div>
-        <div class="navbar2">
-            <a href="portfolio.html">Portfolio</a>
-        </div>
-        <div class="navbar1">
-            <a href="contact.html">Contact</a>
-        </div>
-
     </header>
 
-    <h3>Contact Form</h3>
 
-    <div class="container">
-        <form action="/action_page.php">
-            <label for="fname">Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="John Smith">
 
-            <label for="lname">Email</label>
-            <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
-            </select>
 
-            <label for="subject">Message</label>
-            <textarea id="subject" name="subject" style="height:200px"></textarea>
+<div class="container">
+        <h3>Contact Form</h3>
+    <hr>
+  <form action="/action_page.php">
+    <label for="name">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="John Smith">
 
-            <input type="submit" value="Submit">
-        </form>
+    <label for="email">Email</label>
+    <input type="text" id="lname" name="lastname" placeholder="example@gmil.com">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<div class="footer">
+        <p>Copyright</p>
     </div>
 
 </body>
-
 </html>
